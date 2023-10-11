@@ -11,13 +11,18 @@
 		13C295B32AD55F2100A2DE7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C295B22AD55F2100A2DE7F /* ContentView.swift */; };
 		13C295B52AD55F2200A2DE7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13C295B42AD55F2200A2DE7F /* Assets.xcassets */; };
 		13C295B82AD55F2200A2DE7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13C295B72AD55F2200A2DE7F /* Preview Assets.xcassets */; };
-		13C295BA2AD55F2200A2DE7F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C295B92AD55F2200A2DE7F /* Persistence.swift */; };
-		13C295BD2AD55F2200A2DE7F /* PostKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13C295BB2AD55F2200A2DE7F /* PostKit.xcdatamodeld */; };
 		13C295C82AD620EC00A2DE7F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C295C72AD620EC00A2DE7F /* MainView.swift */; };
 		13C295CA2AD620F700A2DE7F /* ModelSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C295C92AD620F700A2DE7F /* ModelSample.swift */; };
 		13C295CC2AD6210A00A2DE7F /* ViewModelSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C295CB2AD6210A00A2DE7F /* ViewModelSample.swift */; };
 		13C295CF2AD6213000A2DE7F /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C295CE2AD6213000A2DE7F /* Button.swift */; };
 		3E51B40757E55909BF56DC52 /* Pods_PostKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69559D9823FAFA756B85290 /* Pods_PostKit.framework */; };
+		A16F6F362AD63637006FC388 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A16F6F342AD63637006FC388 /* CoreDataModel.xcdatamodeld */; };
+		A16F6F3C2AD63BD3006FC388 /* StoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16F6F3B2AD63BD3006FC388 /* StoreDataManager.swift */; };
+		A16F6F4A2AD644D3006FC388 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16F6F492AD644D3006FC388 /* Onboarding.swift */; };
+		A16F6F4C2AD69242006FC388 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16F6F4B2AD69242006FC388 /* Menu.swift */; };
+		A16F6F4E2AD692CC006FC388 /* Daily.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16F6F4D2AD692CC006FC388 /* Daily.swift */; };
+		A16F6F512AD69728006FC388 /* MenuDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16F6F502AD69728006FC388 /* MenuDataManager.swift */; };
+		A16F6F532AD69768006FC388 /* DailyDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16F6F522AD69768006FC388 /* DailyDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,13 +31,18 @@
 		13C295B22AD55F2100A2DE7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		13C295B42AD55F2200A2DE7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13C295B72AD55F2200A2DE7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		13C295B92AD55F2200A2DE7F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		13C295BC2AD55F2200A2DE7F /* PostKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PostKit.xcdatamodel; sourceTree = "<group>"; };
 		13C295C72AD620EC00A2DE7F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		13C295C92AD620F700A2DE7F /* ModelSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSample.swift; sourceTree = "<group>"; };
 		13C295CB2AD6210A00A2DE7F /* ViewModelSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelSample.swift; sourceTree = "<group>"; };
 		13C295CE2AD6213000A2DE7F /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		96461FBFD0AF38997284E38D /* Pods-PostKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostKit.release.xcconfig"; path = "Target Support Files/Pods-PostKit/Pods-PostKit.release.xcconfig"; sourceTree = "<group>"; };
+		A16F6F352AD63637006FC388 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		A16F6F3B2AD63BD3006FC388 /* StoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDataManager.swift; sourceTree = "<group>"; };
+		A16F6F492AD644D3006FC388 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		A16F6F4B2AD69242006FC388 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		A16F6F4D2AD692CC006FC388 /* Daily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily.swift; sourceTree = "<group>"; };
+		A16F6F502AD69728006FC388 /* MenuDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDataManager.swift; sourceTree = "<group>"; };
+		A16F6F522AD69768006FC388 /* DailyDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyDataManager.swift; sourceTree = "<group>"; };
 		A69559D9823FAFA756B85290 /* Pods_PostKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PostKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBE7F07E8CDB1A768B91AF8 /* Pods-PostKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostKit.debug.xcconfig"; path = "Target Support Files/Pods-PostKit/Pods-PostKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,14 +80,14 @@
 		13C295AF2AD55F2100A2DE7F /* PostKit */ = {
 			isa = PBXGroup;
 			children = (
+				A16F6F4F2AD6936E006FC388 /* Protocol */,
 				13C295C62AD620D900A2DE7F /* ViewModel */,
 				13C295C52AD620D400A2DE7F /* Model */,
 				13C295C42AD620C700A2DE7F /* View */,
 				13C295B02AD55F2100A2DE7F /* PostKitApp.swift */,
 				13C295B22AD55F2100A2DE7F /* ContentView.swift */,
 				13C295B42AD55F2200A2DE7F /* Assets.xcassets */,
-				13C295B92AD55F2200A2DE7F /* Persistence.swift */,
-				13C295BB2AD55F2200A2DE7F /* PostKit.xcdatamodeld */,
+				A16F6F342AD63637006FC388 /* CoreDataModel.xcdatamodeld */,
 				13C295B62AD55F2200A2DE7F /* Preview Content */,
 			);
 			path = PostKit;
@@ -104,6 +114,9 @@
 			isa = PBXGroup;
 			children = (
 				13C295C92AD620F700A2DE7F /* ModelSample.swift */,
+				A16F6F492AD644D3006FC388 /* Onboarding.swift */,
+				A16F6F4B2AD69242006FC388 /* Menu.swift */,
+				A16F6F4D2AD692CC006FC388 /* Daily.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -111,7 +124,10 @@
 		13C295C62AD620D900A2DE7F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A16F6F3B2AD63BD3006FC388 /* StoreDataManager.swift */,
 				13C295CB2AD6210A00A2DE7F /* ViewModelSample.swift */,
+				A16F6F502AD69728006FC388 /* MenuDataManager.swift */,
+				A16F6F522AD69768006FC388 /* DailyDataManager.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -130,7 +146,6 @@
 				ACBE7F07E8CDB1A768B91AF8 /* Pods-PostKit.debug.xcconfig */,
 				96461FBFD0AF38997284E38D /* Pods-PostKit.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,6 +155,13 @@
 				A69559D9823FAFA756B85290 /* Pods_PostKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A16F6F4F2AD6936E006FC388 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,12 +278,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13C295BA2AD55F2200A2DE7F /* Persistence.swift in Sources */,
 				13C295CA2AD620F700A2DE7F /* ModelSample.swift in Sources */,
+				A16F6F362AD63637006FC388 /* CoreDataModel.xcdatamodeld in Sources */,
 				13C295CC2AD6210A00A2DE7F /* ViewModelSample.swift in Sources */,
+				A16F6F4A2AD644D3006FC388 /* Onboarding.swift in Sources */,
+				A16F6F4E2AD692CC006FC388 /* Daily.swift in Sources */,
+				A16F6F4C2AD69242006FC388 /* Menu.swift in Sources */,
+				A16F6F512AD69728006FC388 /* MenuDataManager.swift in Sources */,
+				A16F6F532AD69768006FC388 /* DailyDataManager.swift in Sources */,
 				13C295CF2AD6213000A2DE7F /* Button.swift in Sources */,
+				A16F6F3C2AD63BD3006FC388 /* StoreDataManager.swift in Sources */,
 				13C295B32AD55F2100A2DE7F /* ContentView.swift in Sources */,
-				13C295BD2AD55F2200A2DE7F /* PostKit.xcdatamodeld in Sources */,
 				13C295C82AD620EC00A2DE7F /* MainView.swift in Sources */,
 				13C295B12AD55F2100A2DE7F /* PostKitApp.swift in Sources */,
 			);
@@ -398,7 +425,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PostKit/Preview Content\"";
-				DEVELOPMENT_TEAM = 34K3V5D9X5;
+				DEVELOPMENT_TEAM = F5LF3NUCU2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -428,7 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PostKit/Preview Content\"";
-				DEVELOPMENT_TEAM = 34K3V5D9X5;
+				DEVELOPMENT_TEAM = F5LF3NUCU2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -473,13 +500,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		13C295BB2AD55F2200A2DE7F /* PostKit.xcdatamodeld */ = {
+		A16F6F342AD63637006FC388 /* CoreDataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				13C295BC2AD55F2200A2DE7F /* PostKit.xcdatamodel */,
+				A16F6F352AD63637006FC388 /* CoreData.xcdatamodel */,
 			);
-			currentVersion = 13C295BC2AD55F2200A2DE7F /* PostKit.xcdatamodel */;
-			path = PostKit.xcdatamodeld;
+			currentVersion = A16F6F352AD63637006FC388 /* CoreData.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
