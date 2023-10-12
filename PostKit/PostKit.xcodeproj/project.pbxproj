@@ -16,6 +16,7 @@
 		13C295C82AD620EC00A2DE7F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C295C72AD620EC00A2DE7F /* MainView.swift */; };
 		13C295CA2AD620F700A2DE7F /* ModelSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C295C92AD620F700A2DE7F /* ModelSample.swift */; };
 		13C295CC2AD6210A00A2DE7F /* ViewModelSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C295CB2AD6210A00A2DE7F /* ViewModelSample.swift */; };
+		3E51B40757E55909BF56DC52 /* Pods_PostKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69559D9823FAFA756B85290 /* Pods_PostKit.framework */; };
 		13C295D32AD64C3500A2DE7F /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C295D22AD64C3500A2DE7F /* SettingView.swift */; };
 		13C295D52AD677FA00A2DE7F /* NavigationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C295D42AD677FA00A2DE7F /* NavigationModel.swift */; };
 		13C295D82AD68BEA00A2DE7F /* SettingStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C295D72AD68BEA00A2DE7F /* SettingStoreView.swift */; };
@@ -31,7 +32,6 @@
 		13C295F32AD7136E00A2DE7F /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 13C295EA2AD7136D00A2DE7F /* Pretendard-Thin.otf */; };
 		13C295F42AD7136E00A2DE7F /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 13C295EB2AD7136E00A2DE7F /* Pretendard-ExtraLight.otf */; };
 		13C295F52AD7136E00A2DE7F /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 13C295EC2AD7136E00A2DE7F /* Pretendard-Bold.otf */; };
-		3E51B40757E55909BF56DC52 /* Pods_PostKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69559D9823FAFA756B85290 /* Pods_PostKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +45,9 @@
 		13C295C72AD620EC00A2DE7F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		13C295C92AD620F700A2DE7F /* ModelSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSample.swift; sourceTree = "<group>"; };
 		13C295CB2AD6210A00A2DE7F /* ViewModelSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelSample.swift; sourceTree = "<group>"; };
+		96461FBFD0AF38997284E38D /* Pods-PostKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostKit.release.xcconfig"; path = "Target Support Files/Pods-PostKit/Pods-PostKit.release.xcconfig"; sourceTree = "<group>"; };
+		A69559D9823FAFA756B85290 /* Pods_PostKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PostKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBE7F07E8CDB1A768B91AF8 /* Pods-PostKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostKit.debug.xcconfig"; path = "Target Support Files/Pods-PostKit/Pods-PostKit.debug.xcconfig"; sourceTree = "<group>"; };
 		13C295D22AD64C3500A2DE7F /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		13C295D42AD677FA00A2DE7F /* NavigationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationModel.swift; sourceTree = "<group>"; };
 		13C295D72AD68BEA00A2DE7F /* SettingStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingStoreView.swift; sourceTree = "<group>"; };
@@ -61,9 +64,6 @@
 		13C295EB2AD7136E00A2DE7F /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
 		13C295EC2AD7136E00A2DE7F /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
 		13C295F62AD714A700A2DE7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		96461FBFD0AF38997284E38D /* Pods-PostKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostKit.release.xcconfig"; path = "Target Support Files/Pods-PostKit/Pods-PostKit.release.xcconfig"; sourceTree = "<group>"; };
-		A69559D9823FAFA756B85290 /* Pods_PostKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PostKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACBE7F07E8CDB1A768B91AF8 /* Pods-PostKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostKit.debug.xcconfig"; path = "Target Support Files/Pods-PostKit/Pods-PostKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
