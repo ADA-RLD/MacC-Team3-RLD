@@ -13,13 +13,15 @@ struct PostKitApp: App {
     let menuDataManager = MenuDataManager.instance
     let dailyDataManager = DailyDataManager.instance
     
+    let persistenceController = PersistenceController.shared
+    @StateObject var pathManager = PathManager()
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, storeDataManager.container.viewContext)
-                .environment(\.managedObjectContext, menuDataManager.container.viewContext)
-                .environment(\.managedObjectContext, dailyDataManager.container.viewContext)
+            MainView()
+                .environmentObject(pathManager)
+//            ContentView()
+//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
