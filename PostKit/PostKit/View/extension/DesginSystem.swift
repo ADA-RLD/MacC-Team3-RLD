@@ -23,7 +23,7 @@ extension Font {
         
         var value: String {
             switch self {
-            case.black:
+            case .black:
                 return "Pretendard-Black"
             case .bold:
                 return "Pretendard-Bold"
